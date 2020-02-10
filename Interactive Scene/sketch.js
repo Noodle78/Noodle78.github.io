@@ -20,6 +20,10 @@ function setup() {
 function draw() {
   background(0);
   backStuff();
+  textSize(30);
+  fill(255,0,0);
+  text("Adam Farkas", 200,700);
+  rect(200,700,20,20);
   if (tf === true){
     push();
     translate(mouseX,mouseY);
@@ -31,6 +35,7 @@ function draw() {
     superman(mouseX,mouseY);
 
   }
+
 }
   
   
@@ -43,7 +48,6 @@ function backStuff(){
   rect(0, 600, 5000,5000);
   fill(255,255,255);
 }
-  
 
 function superman(x,y){
   //head
@@ -74,4 +78,11 @@ function superman(x,y){
   rotate(radians(90));
   text("S", -25,5);
   pop();
+
+
+
+
+
+
+
 }
