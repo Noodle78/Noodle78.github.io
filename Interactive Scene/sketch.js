@@ -34,6 +34,7 @@ function draw() {
   else if (tf === false){
     superman(mouseX,mouseY);
 
+
   }
 
 }
