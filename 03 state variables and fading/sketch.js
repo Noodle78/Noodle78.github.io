@@ -41,7 +41,8 @@ function renderRectangles(){
 
 
   }
-  else{ fill(97,130,210);
+  else{ 
+    fill(97,130,210);
     leftFade = 0;
   }
   rect(0,0,width/2,height);
